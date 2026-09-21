@@ -1,6 +1,6 @@
 # Healthy Me Food Skill
 
-Send your AI assistant a photo of a menu, a fridge, a plate or a package, or name a restaurant before you go. It tells you what to order, what to make, or whether to eat it, in a few lines, based on your goals, your lab results and the foods you eat. Works with any assistant that takes custom instructions.
+Send your AI assistant a photo of a menu, a fridge, a plate or a package, or name a restaurant before you go. It tells you what to order, what to make, or whether to eat it, in a short answer built around your own profile: your goals, your health markers, how you eat and what you avoid. Works with any assistant that takes custom instructions.
 
 People search for this as a menu scanner, a "what should I order" bot, a restaurant menu health checker, a fridge-to-meal helper, or a food skill for their AI assistant. It is all of those, in one text file.
 
