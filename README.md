@@ -30,7 +30,7 @@ The skill triggers on its own when you send a menu, fridge or plate photo. To ke
 
 1. Download this folder (green Code button, Download ZIP) or clone it.
 2. Fill in `references/inputs.md`, or leave it blank and let "set me up" fill it for you.
-3. Install: paste `SKILL.md` into your assistant's instructions and upload the `references/` folder as its knowledge files, or zip the folder and upload it as a skill, or drop the folder into your agent's skills directory. Details in [`docs/setup.md`](docs/setup.md).
+3. Install: paste `SKILL.md` into your assistant's instructions and upload the `references/` folder as its knowledge files, or zip `SKILL.md` and `references/` together and upload that as a skill, or drop those two into your agent's skills directory. The README, docs, examples and `QUICKSTART.md` are for reading; leave them out of the install. Details in [`docs/setup.md`](docs/setup.md).
 
 Option 3 gives you editable food lists, a lab-marker lookup table, sources for the numbers, and a log file for exact lookbacks. Options 1 and 2 carry the same decision logic with the defaults built in.
 
@@ -52,7 +52,7 @@ Option 3 gives you editable food lists, a lab-marker lookup table, sources for t
 
 - `SKILL.md`: the decision logic and answer formats. You should not need to edit it.
 - `QUICKSTART.md`: the single-file version for Option 1.
-- `healthy-me.skill`: the packaged version for Option 2 (a zip of this folder).
+- `healthy-me.skill`: the packaged version for Option 2 (a zip of `SKILL.md` and `references/`, nothing else).
 - `references/inputs.md`: your profile, goals, food lists, strictness, caffeine, alcohol, supplements, places you eat, and the targets the skill worked out
 - `references/biomarkers.md`: your results, one row per marker with the food angle
 - `references/markers.md`: a lookup table of about 25 common markers with lab ranges, common targets and food angles

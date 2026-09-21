@@ -21,14 +21,17 @@ Some assistants accept a packaged skill: a zip with `SKILL.md` at the root and t
 
 1. Say "set me up" in any chat with the skill loaded, or fill in `references/inputs.md` by hand.
 2. Paste the filled-in files over `references/inputs.md` and `references/biomarkers.md`.
-3. Zip the `healthy-me` folder so `SKILL.md` sits at the root of the zip. Rename the extension if your tool wants one (`.skill`, for example).
-4. Upload it where your assistant manages skills or tools.
+3. Make a folder called `healthy-me` containing only `SKILL.md` and the `references/` folder. Leave out the README, docs, examples, `QUICKSTART.md` and the old `.skill` file; they are for people, and a second copy of the instructions in the package can confuse the assistant.
+4. Zip that folder so `SKILL.md` sits at the root of the zip. Rename the extension if your tool wants one (`.skill`, for example).
+5. Upload it where your assistant manages skills or tools.
+
+The `healthy-me.skill` in the repo is exactly this, with blank reference files.
 
 The skill triggers automatically on menu and food photos. To update your data, edit the reference file and re-upload.
 
 ## C. A coding or desktop agent
 
-Copy the `healthy-me` folder into wherever your agent looks for skills or instruction folders. It loads on the next session. Say "set me up" and the agent can write the filled-in reference files straight back into the folder.
+Copy `SKILL.md` and `references/` (in a folder called `healthy-me`) into wherever your agent looks for skills or instruction folders. Leave the docs, examples and `QUICKSTART.md` out. It loads on the next session. Say "set me up" and the agent can write the filled-in reference files straight back into the folder.
 
 ## What setup asks
 
