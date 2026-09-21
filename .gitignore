@@ -2,5 +2,4 @@
 # never lands in a public fork.
 # references/inputs.md
 # references/biomarkers.md
-*.skill
 .DS_Store
