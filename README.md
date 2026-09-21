@@ -16,13 +16,23 @@ This is not medical advice. This is not a doctor, and it does not substitute for
 
 Your answers stay in that chat or project. To keep them for good, paste the profile block it hands you at the bottom of the same instructions.
 
-### Option 2: full customization (ten minutes)
+### Option 2: upload it as a skill (two minutes)
+
+For assistants that accept skill files.
+
+1. Download [`healthy-me.skill`](healthy-me.skill) (click it, then the download button).
+2. Upload it where your assistant manages skills.
+3. Open a chat, type "set me up", answer the questions, and send a menu.
+
+The skill triggers on its own when you send a menu, fridge or plate photo. To keep your profile, paste the block it hands you into a note you can drop into a new chat, or use Option 3.
+
+### Option 3: full customization (ten minutes)
 
 1. Download this folder (green Code button, Download ZIP) or clone it.
 2. Fill in `references/inputs.md`, or leave it blank and let "set me up" fill it for you.
 3. Install: paste `SKILL.md` into your assistant's instructions and upload the `references/` folder as its knowledge files, or zip the folder and upload it as a skill, or drop the folder into your agent's skills directory. Details in [`docs/setup.md`](docs/setup.md).
 
-Option 2 gives you editable food lists, a lab-marker lookup table, sources for the numbers, and a log file for exact lookbacks. Option 1 carries the same decision logic with the defaults built in.
+Option 3 gives you editable food lists, a lab-marker lookup table, sources for the numbers, and a log file for exact lookbacks. Options 1 and 2 carry the same decision logic with the defaults built in.
 
 ## What it does
 
@@ -38,10 +48,11 @@ Option 2 gives you editable food lists, a lab-marker lookup table, sources for t
 | "What does my day look like?" | Reads your calendar and plans meals and coffee around it |
 | A question about coffee, alcohol, sleep, stress, workouts, supplements, travel | Three lines, action first, no doses |
 
-## The files (Option 2)
+## The files (Option 3)
 
 - `SKILL.md`: the decision logic and answer formats. You should not need to edit it.
-- `QUICKSTART.md`: the single-file version of the skill for Option 1.
+- `QUICKSTART.md`: the single-file version for Option 1.
+- `healthy-me.skill`: the packaged version for Option 2 (a zip of this folder).
 - `references/inputs.md`: your profile, goals, food lists, strictness, caffeine, alcohol, supplements, places you eat, and the targets the skill worked out
 - `references/biomarkers.md`: your results, one row per marker with the food angle
 - `references/markers.md`: a lookup table of about 25 common markers with lab ranges, common targets and food angles
@@ -59,6 +70,10 @@ Your health data stays in your copy of `references/` and in whatever assistant y
 When weight is a goal it recommends a calorie range and you pick the number. It gives no calorie targets to anyone under 18, pregnant or breastfeeding, or with a history of disordered eating, and it caps protein for anyone who mentions kidney disease. On medication, supplement doses, lab interpretation or diagnosis, it gives the food angle and tells you once per conversation to ask your doctor.
 
 ## Changelog
+
+### 1.1.1 (2026-09-21)
+
+- README: install as three options; `healthy-me.skill` added to the repo for direct download.
 
 ### 1.1.0 (2026-09-21)
 
