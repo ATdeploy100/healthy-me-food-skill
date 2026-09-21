@@ -2,6 +2,8 @@
 
 Send your AI assistant a photo of a menu, a fridge, a plate or a package, or name a restaurant before you go. It tells you what to order, what to make, or whether to eat it, in a few lines, based on your goals, your lab results and the foods you eat. Works with any assistant that takes custom instructions.
 
+People search for this as a menu scanner, a "what should I order" bot, a restaurant menu health checker, a fridge-to-meal helper, or a food skill for their AI assistant. It is all of those, in one text file.
+
 ## Not medical advice
 
 This is not medical advice. This is not a doctor, and it does not substitute for seeing one. It is for people who want to play around with food decisions using their own information. We hold no responsibility for how you use it or for anything you do with what it tells you. Take your reports, your targets and any question about medication, supplements or a diagnosis to a doctor.
@@ -30,7 +32,7 @@ The skill triggers on its own when you send a menu, fridge or plate photo. To ke
 
 1. Download this folder (green Code button, Download ZIP) or clone it.
 2. Fill in `references/inputs.md`, or leave it blank and let "set me up" fill it for you.
-3. Install: paste `SKILL.md` into your assistant's instructions and upload the `references/` folder as its knowledge files, or zip `SKILL.md` and `references/` together and upload that as a skill, or drop those two into your agent's skills directory. The README, docs, examples and `QUICKSTART.md` are for reading; leave them out of the install. Details in [`docs/setup.md`](docs/setup.md).
+3. Install: paste `SKILL.md` into your assistant's instructions and upload the `references/` folder as its knowledge files, or zip `SKILL.md` and `references/` together and upload that as a skill, or drop those two into your agent's skills directory. The README, docs, examples and `QUICKSTART.md` are for reading; leave them out of the install, because a second copy of the instructions in the same package can confuse the assistant. Details in [`docs/setup.md`](docs/setup.md).
 
 Option 3 gives you editable food lists, a lab-marker lookup table, sources for the numbers, and a log file for exact lookbacks. Options 1 and 2 carry the same decision logic with the defaults built in.
 
@@ -70,6 +72,14 @@ Your health data stays in your copy of `references/` and in whatever assistant y
 When weight is a goal it recommends a calorie range and you pick the number. It gives no calorie targets to anyone under 18, pregnant or breastfeeding, or with a history of disordered eating, and it caps protein for anyone who mentions kidney disease. On medication, supplement doses, lab interpretation or diagnosis, it gives the food angle and tells you once per conversation to ask your doctor.
 
 ## Changelog
+
+### 1.2.0 (2026-09-21)
+
+- Guards added: pregnancy fish and listeria list, warfarin and leafy greens, statins and grapefruit, no alcohol under 18, alcohol with medication, no plate scores or lookback counts for disordered-eating history. Kidney cap fixed to 1.2 g/kg in every file.
+- Protein sized on a working weight when BMI is over 30, for every goal. Calorie range never more than 25 percent below maintenance.
+- Standing orders: "save this" adds a place and order to the profile; pre-scan returns **Your usual** first.
+- Marker table: Lp(a) units no longer treated as interchangeable, HDL capped as neutral above 90, fasting insulin optimal widened to 2 to 8.
+- Report example reordered to match the table's priority.
 
 ### 1.1.2 (2026-09-21)
 

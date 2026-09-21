@@ -1,8 +1,10 @@
 # Marker lookup table
 
-Version 1.0.0, September 2026.
+Version 1.2.0, September 2026.
 
 What the skill uses to read a lab report. Each row gives the typical lab range, the target many preventive clinicians use, the direction that matters, and the one-line food angle the skill applies. Ranges vary by lab, unit and country; the skill uses the range printed on the user's own report first and this table only for the "optimal" column and the food angle. None of this is a diagnosis. Interpretation, medication and doses go to the user's doctor.
+
+The optimal column is one school of preventive medicine and is more aggressive than most lab reference ranges; it is a starting point, and the user's own doctor's targets replace it.
 
 Units: US labs report lipids and glucose in mg/dL. Many other countries use mmol/L. Convert if needed: cholesterol mg/dL ÷ 38.67 = mmol/L; triglycerides mg/dL ÷ 88.57 = mmol/L; glucose mg/dL ÷ 18 = mmol/L.
 
@@ -28,8 +30,8 @@ When a report has several markers off, the skill ranks the work in this order an
 | LDL-C | < 100 to 130 mg/dL | < 100 mg/dL; < 70 or < 55 for people with existing heart disease or high risk | High | Same as ApoB. Swap butter for olive oil, red meat for fish, poultry or legumes. Refined carbs matter less here than for triglycerides. |
 | Non-HDL cholesterol | < 130 mg/dL | < 100 mg/dL | High | Same as ApoB. |
 | Triglycerides | < 150 mg/dL | < 100 mg/dL | High | Sugar, refined starch and alcohol down first; fatty fish and fiber up. Fruit juice and sweet drinks are the fastest cut. |
-| HDL-C | > 40 (men) / > 50 (women) mg/dL | > 60 mg/dL | Low | Weak food lever. Olive oil, nuts, fatty fish, exercise. Do not chase it with food at the expense of ApoB. |
-| Lp(a) | < 30 mg/dL or < 75 nmol/L | < 50 mg/dL or < 125 nmol/L | High | No food lever. Genetic, measured once. Listed for the doctor conversation; it makes the ApoB work more important, nothing else. |
+| HDL-C | > 40 (men) / > 50 (women) mg/dL | 60 to 90 mg/dL | Low | Weak food lever. Olive oil, nuts, fatty fish, exercise. Do not chase it with food at the expense of ApoB. Above about 90 mg/dL it stops being protective, so the skill treats very high HDL as neutral. |
+| Lp(a) | Lab specific; reported in either mg/dL or nmol/L | High is 50 mg/dL or 125 nmol/L and above | High | No food lever. Genetic, measured once. The two units do not convert by a fixed factor; read the user's report in the unit it uses. Listed for the doctor conversation; it makes the ApoB work more important, nothing else. |
 
 ## Glucose and insulin
 
@@ -37,7 +39,7 @@ When a report has several markers off, the skill ranks the work in this order an
 |---|---|---|---|---|
 | HbA1c | < 5.7 % | < 5.5 % | High | Refined starch and added sugar down, protein and fiber at every meal, vegetables and protein before the starch on the plate, a walk after the biggest meal. Whole grains move below legumes on the ladder. |
 | Fasting glucose | 70 to 99 mg/dL | 70 to 85 mg/dL | High | Same as HbA1c. Late-night eating and alcohol raise the morning number. |
-| Fasting insulin | < 25 µIU/mL | 2 to 6 µIU/mL | High | Same as HbA1c, with more weight on cutting snacking between meals and liquid calories. |
+| Fasting insulin | < 25 µIU/mL | 2 to 8 µIU/mL (noisy test; one reading means little) | High | Same as HbA1c, with more weight on cutting snacking between meals and liquid calories. |
 | Post-meal glucose (CGM or 2-hour test) | < 140 mg/dL | < 110 to 115 mg/dL | High | Eating order (vegetables, protein, then starch), vinegar or a salad first, a ten-minute walk after. |
 
 ## Blood pressure

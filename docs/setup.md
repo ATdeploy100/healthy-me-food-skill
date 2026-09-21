@@ -21,7 +21,7 @@ Some assistants accept a packaged skill: a zip with `SKILL.md` at the root and t
 
 1. Say "set me up" in any chat with the skill loaded, or fill in `references/inputs.md` by hand.
 2. Paste the filled-in files over `references/inputs.md` and `references/biomarkers.md`.
-3. Make a folder called `healthy-me-food-skill` containing only `SKILL.md` and the `references/` folder. Leave out the README, docs, examples, `QUICKSTART.md` and the old `.skill` file; they are for people, and a second copy of the instructions in the package can confuse the assistant.
+3. Make a folder called `healthy-me-food-skill` containing only `SKILL.md` and the `references/` folder. Leave out the README, docs, examples and `QUICKSTART.md`; they are for people, and a second copy of the instructions in the package can confuse the assistant.
 4. Zip that folder so `SKILL.md` sits at the root of the zip. Rename the extension if your tool wants one (`.skill`, for example).
 5. Upload it where your assistant manages skills or tools.
 

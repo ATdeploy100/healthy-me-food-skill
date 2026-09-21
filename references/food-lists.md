@@ -1,6 +1,6 @@
 # Default food lists
 
-Version 1.0.0, September 2026.
+Version 1.2.0, September 2026.
 
 Generic defaults built on a whole-food, low-processed pattern. Anything the user puts in `inputs.md` overrides them. The eating pattern in `inputs.md` (vegan, kosher, halal, low-FODMAP, keto, allergies) is a hard filter applied before any of this; a filtered-out food never appears in an Order line, even as a compromise.
 
@@ -23,7 +23,7 @@ Generic defaults built on a whole-food, low-processed pattern. Anything the user
 ## Limit
 
 - Red meat (lean cuts occasionally), full-fat cheese, butter, cream sauces
-- Industrial seed oils in quantity (fried in canola, soybean, corn, sunflower, safflower, palm); a drizzle in a dressing is not the issue, deep frying is
+- Industrial seed oils in quantity (fried in canola, soybean, corn, sunflower, safflower, palm); the problem is deep frying, a drizzle in a dressing is fine
 - Added sugars and sweeteners of every kind; the practical ceiling is about 10 g added sugar per meal
 - Refined grains: white rice, white bread, pasta, tortillas, pastries, crackers
 - Processed snacks: chips, pretzels, granola bars
