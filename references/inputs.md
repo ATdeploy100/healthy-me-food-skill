@@ -129,7 +129,7 @@ Places you eat repeatedly
 - "Starbucks most mornings, Chipotle, the airport Chili's, Sweetgreen near the office"
 
 Log file
-- "healthy-me/log.md in my Documents folder" / blank
+- "healthy-me-food-skill/log.md in my Documents folder" / blank
 
 Formatting and tone
 - "Short, no bullet points unless it's the skip list" / "No caveats" / "UK spelling" / "Give me a 1 to 10 score on plates I send you"

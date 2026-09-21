@@ -1,4 +1,4 @@
-# Healthy Me
+# Healthy Me Food Skill
 
 Send your AI assistant a photo of a menu, a fridge, a plate or a package, or name a restaurant before you go. It tells you what to order, what to make, or whether to eat it, in a few lines, based on your goals, your lab results and the foods you eat. Works with any assistant that takes custom instructions.
 
@@ -20,7 +20,7 @@ Your answers stay in that chat or project. To keep them for good, paste the prof
 
 For assistants that accept skill files.
 
-1. Download [`healthy-me.skill`](healthy-me.skill) (click it, then the download button).
+1. Download [`healthy-me-food-skill.skill`](healthy-me-food-skill.skill) (click it, then the download button).
 2. Upload it where your assistant manages skills.
 3. Open a chat, type "set me up", answer the questions, and send a menu.
 
@@ -52,7 +52,7 @@ Option 3 gives you editable food lists, a lab-marker lookup table, sources for t
 
 - `SKILL.md`: the decision logic and answer formats. You should not need to edit it.
 - `QUICKSTART.md`: the single-file version for Option 1.
-- `healthy-me.skill`: the packaged version for Option 2 (a zip of `SKILL.md` and `references/`, nothing else).
+- `healthy-me-food-skill.skill`: the packaged version for Option 2 (a zip of `SKILL.md` and `references/`, nothing else).
 - `references/inputs.md`: your profile, goals, food lists, strictness, caffeine, alcohol, supplements, places you eat, and the targets the skill worked out
 - `references/biomarkers.md`: your results, one row per marker with the food angle
 - `references/markers.md`: a lookup table of about 25 common markers with lab ranges, common targets and food angles
@@ -71,9 +71,13 @@ When weight is a goal it recommends a calorie range and you pick the number. It 
 
 ## Changelog
 
+### 1.1.2 (2026-09-21)
+
+- Renamed to healthy-me-food-skill (skill name, package file, headings).
+
 ### 1.1.1 (2026-09-21)
 
-- README: install as three options; `healthy-me.skill` added to the repo for direct download.
+- README: install as three options; `healthy-me-food-skill.skill` added to the repo for direct download.
 
 ### 1.1.0 (2026-09-21)
 
