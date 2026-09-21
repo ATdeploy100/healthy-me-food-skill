@@ -9,10 +9,6 @@ Where the default numbers come from. The skill does not cite these in verdicts; 
 - PROT-AGE Study Group position on protein for older adults (1.0 to 1.2 g/kg minimum, more when active or unwell): https://pubmed.ncbi.nlm.nih.gov/23867520/
 - Protein recommendations for muscle and bone in older adults, mini review (per-meal distribution, 25 to 40 g): https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1394916/full
 
-## Calories
-
-- Mifflin-St Jeor equation, the standard resting-energy formula used in clinical dietetics. Activity multipliers 1.2 to 1.725 are the conventional Harris-Benedict factors. The skill treats the result as an estimate, states it once, and never puts calorie counts in verdicts.
-
 ## Saturated fat, added sugar, alcohol
 
 - Dietary Guidelines for Americans 2025 to 2030: saturated fat under 10 percent of calories; no recommended amount of added sugar, practical ceiling about 10 g per meal; "consume less alcohol for better health" with no safe number given. Summary: https://nutritionsource.hsph.harvard.edu/2026/01/09/dietary-guidelines-for-americans-2025-2030/ and https://www.hcplive.com/view/us-2025-2030-dietary-guidelines-addressing-alcohol-intake-recommendations

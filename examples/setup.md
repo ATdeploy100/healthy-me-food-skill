@@ -8,7 +8,7 @@ Fictional user. Nothing here is anyone's real data.
 
 Eight quick questions so the verdicts fit you. Answer what you like, skip the rest.
 
-1. Your height, weight, sex and age, in whatever units you use. (Sex is only used in the calorie formula.)
+1. Your height, weight and age, in whatever units you use.
 2. How active are you?
    Option 1: mostly sitting
    Option 2: on your feet a lot
@@ -25,7 +25,7 @@ Eight quick questions so the verdicts fit you. Answer what you like, skip the re
 8. Anything else? Places you eat often, workout days, usual meal times, how you like answers (a score on plates, no bullets, spelling).
 
 **User:**
-1. 5'10", 195 lb, male, 52
+1. 5'10", 195 lb, 52
 2. Option 3
 3. Lose 15 lb, then cholesterol, then energy
 4. None yet, physical is next month
@@ -36,8 +36,8 @@ Eight quick questions so the verdicts fit you. Answer what you like, skip the re
 
 **Skill:**
 
-**Your profile:** 178 cm, 88 kg, male, 52, trains 2 to 3 times a week, omnivore, no shellfish, 80/20, coffee by 1pm, one drink with the best choice suggested.
-**Targets:** Protein 176 g a day (88 kg × 2.0, weight loss protects muscle), about 45 g a meal over three meals plus a protein snack. Maintenance about 2,700 kcal (Mifflin-St Jeor: 10 × 88 + 6.25 × 178 − 5 × 52 + 5 = 1,738, × 1.55). Recommended range 2,200 to 2,400 a day; tell me the number you want to work to, and I'll use 2,300 until you do. The deficit comes from starch, bread and drinks; protein stays. Goals as you ranked them; I'll re-check after the physical. All of this is a starting point to adjust and to run past your doctor.
+**Your profile:** 178 cm, 88 kg, 52, trains 2 to 3 times a week, omnivore, no shellfish, 80/20, coffee by 1pm, one drink with the best choice suggested.
+**Targets:** Protein 176 g a day (88 kg × 2.0, weight loss protects muscle), about 45 g a meal over three meals plus a protein snack. The weight goal is handled with portions in each verdict (less starch, keep the protein, one drink), no calorie counting. Goals as you ranked them; I'll re-check after the physical. All of this is a starting point to adjust and to run past your doctor.
 **Save this:** paste over `references/inputs.md`.
 
 ```

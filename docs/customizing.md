@@ -4,7 +4,7 @@ Change what you like. The defaults are a place to start, and your doctor's numbe
 
 ## Change these
 
-**`references/inputs.md`** is where your information goes: profile and activity, goals in order, reports, allergies and won't-eat foods, eating pattern, food lists, strictness, caffeine, alcohol, supplements, your normal week, places you eat, log file, tone. The skill reads it before the first verdict. The Computed targets block at the bottom is filled by the skill; if you type a different protein or calorie number there, the skill uses yours.
+**`references/inputs.md`** is where your information goes: profile and activity, goals in order, reports, allergies and won't-eat foods, eating pattern, food lists, strictness, caffeine, alcohol, supplements, your normal week, places you eat, log file, tone. The skill reads it before the first verdict. The Computed targets block at the bottom is filled by the skill; if you type a different protein number there, the skill uses yours.
 
 **`references/biomarkers.md`** if you have blood work, blood pressure readings or a body-composition scan. Upload the report in chat and the skill fills this for you.
 
@@ -23,10 +23,7 @@ Change what you like. The defaults are a place to start, and your doctor's numbe
 | Scores on every plate photo | Add "always give a 1 to 10 on plates" to Formatting in `inputs.md` |
 | Stricter, no compromise flags | Set Strictness to "strict" |
 | Vegan or vegetarian | Set Eating pattern; the skill filters and re-ranks the ladder on its own |
-| Weight loss as a goal | Rank it in Goals; the skill recommends a calorie range once, you pick the number, then it uses portion levers, never protein cuts |
-| A different calorie number | Overwrite "Daily target, your choice" in Computed targets |
-| Calorie estimate without a weight goal | Set Show calories to "yes" |
-| No calorie numbers anywhere | Set Show calories to "no" and leave weight out of Goals |
+| Weight loss as a goal | Rank it in Goals; the skill uses portion levers (less starch, keep the protein, one drink) and never counts calories |
 | Higher protein than the computed number | Overwrite Protein per day in Computed targets |
 | No habit notes at all | Set Habit areas to "none" |
 | No Drink line | Set Alcohol to "leave drinks out" |

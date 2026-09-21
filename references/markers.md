@@ -93,7 +93,7 @@ When a report has several markers off, the skill ranks the work in this order an
 
 | Marker | Typical range | Common optimal target | Matters when | Food angle |
 |---|---|---|---|---|
-| Body fat % (DEXA or scale) | Men 10 to 22 %, women 20 to 32 % | Men 12 to 20 %, women 22 to 30 % | High | Protein target up to 2.0 g/kg, deficit from starch and drinks, never protein. Resistance training is the other half; the skill mentions it once. |
+| Body fat % (DEXA or scale) | Men 10 to 22 %, women 20 to 32 % | Men 12 to 20 %, women 22 to 30 % | High | Protein target up to 2.0 g/kg; cut starch and drinks, never protein. Resistance training is the other half; the skill mentions it once. |
 | Waist circumference | Men < 40 in / 102 cm, women < 35 in / 88 cm | Men < 37 in / 94 cm, women < 31.5 in / 80 cm | High | Same as body fat. Alcohol and liquid sugar are the fastest cuts. |
 | Visceral fat (DEXA) | Lab specific | Lower quartile | High | Same as body fat, with extra weight on alcohol and fructose. |
 

@@ -37,7 +37,7 @@ Copy `SKILL.md` and `references/` (in a folder called `healthy-me-food-skill`) i
 
 One message, eight numbered questions, all optional:
 
-1. Height, weight, sex, age
+1. Height, weight, age
 2. Activity level
 3. Goals, ranked
 4. Health reports (upload, paste, or "none")
@@ -46,7 +46,7 @@ One message, eight numbered questions, all optional:
 7. Coffee and alcohol habits
 8. Places you eat, workout days, meal times, tone
 
-It then works out your protein target, recommends a calorie range if weight is a goal and asks which number you want to work to, suggests a goal order from your report, and hands back the filled files. Give height and weight in whatever units you use; the skill converts.
+It then works out your protein target, suggests a goal order from your report, and hands back the filled files. Give height and weight in whatever units you use; the skill converts.
 
 The targets are a place to start. Change them when your doctor gives you different ones. See the disclaimer in the README.
 

@@ -40,7 +40,7 @@ Option 3 gives you editable food lists, a lab-marker lookup table, sources for t
 
 | You send | You get |
 |---|---|
-| "Set me up" | Eight questions in one message, then your protein target, a calorie range if weight is a goal, a suggested goal order, and your profile |
+| "Set me up" | Eight questions in one message, then your protein target, a suggested goal order, and your profile |
 | A lab report, a results photo, pasted values, a blood-pressure log or a DEXA | What to work on, what's fine, the food angle for each marker |
 | Menu photo | The order (with the swaps to ask the server for), why, a backup, two to four items to skip, one drink if there's a list |
 | Fridge or pantry photo | Two or three meals to make, what to use first, what to leave |
@@ -69,14 +69,18 @@ Your health data stays in your copy of `references/` and in whatever assistant y
 
 ## How it handles limits
 
-When weight is a goal it recommends a calorie range and you pick the number. It gives no calorie targets to anyone under 18, pregnant or breastfeeding, or with a history of disordered eating, and it caps protein for anyone who mentions kidney disease. On medication, supplement doses, lab interpretation or diagnosis, it gives the food angle and tells you once per conversation to ask your doctor.
+It does not count calories. When weight is a goal it works with portions (less starch, keep the protein, one drink). It gives no weight-loss framing to anyone under 18, pregnant or breastfeeding, or with a history of disordered eating, and it caps protein for anyone who mentions kidney disease. On medication, supplement doses, lab interpretation or diagnosis, it gives the food angle and tells you once per conversation to ask your doctor.
 
 ## Changelog
+
+### 1.3.0 (2026-09-21)
+
+- Calorie estimate removed. Protein target stays; weight goals use portion levers only. Sex no longer asked at setup.
 
 ### 1.2.0 (2026-09-21)
 
 - Guards added: pregnancy fish and listeria list, warfarin and leafy greens, statins and grapefruit, no alcohol under 18, alcohol with medication, no plate scores or lookback counts for disordered-eating history. Kidney cap fixed to 1.2 g/kg in every file.
-- Protein sized on a working weight when BMI is over 30, for every goal. Calorie range never more than 25 percent below maintenance.
+- Protein sized on a working weight when BMI is over 30, for every goal.
 - Standing orders: "save this" adds a place and order to the profile; pre-scan returns **Your usual** first.
 - Marker table: Lp(a) units no longer treated as interchangeable, HDL capped as neutral above 90, fasting insulin optimal widened to 2 to 8.
 - Report example reordered to match the table's priority.

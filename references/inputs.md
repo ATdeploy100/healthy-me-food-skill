@@ -14,8 +14,6 @@ Not medical advice. The targets and food angles in these files are a place to st
 
 **Weight:** 
 
-**Sex** (used for the calorie formula only): 
-
 **Age:** 
 
 **Activity** (mostly sitting / on your feet a lot / train 2 to 3 times a week / train 4 or more): 
@@ -56,8 +54,6 @@ Not medical advice. The targets and food angles in these files are a place to st
 
 **Log file** (optional path to a text file the skill appends each verdict to, for lookbacks; leave blank to use past chats): 
 
-**Show calories** (yes / no; default no unless weight is a ranked goal): 
-
 **Formatting and tone** (scores on plates, bullets or none, spelling, anything else): 
 
 ---
@@ -70,12 +66,6 @@ The skill fills this in at setup and recomputes when weight or goals change. You
 
 **Protein per meal:** 
 
-**Maintenance calories** (only if weight is a goal or you asked): 
-
-**Recommended daily range** (maintenance minus 300 to 500, only if weight loss is ranked): 
-
-**Daily target, your choice** (the number you told the skill to work to; edit it any time): 
-
 **Portion levers in use** (what the skill trades to hit the target; never protein): 
 
 **Goal 1 marker cluster** (from biomarkers.md, if any): 
@@ -85,8 +75,8 @@ The skill fills this in at setup and recomputes when weight or goals change. You
 ## Examples of what to put here
 
 Profile
-- "180 cm, 82 kg, male, 48, train three mornings a week"
-- "5 ft 6, 150 lb, female, 35, mostly sitting"
+- "180 cm, 82 kg, 48, train three mornings a week"
+- "5 ft 6, 150 lb, 35, mostly sitting"
 
 Goals
 - "Get cholesterol markers down" / "Steady blood sugar" / "Lose 15 lb" / "Build muscle" / "Stop getting sick" / "Reduce stress" / "Sleep better" / "More energy"
@@ -135,5 +125,4 @@ Formatting and tone
 - "Short, no bullet points unless it's the skip list" / "No caveats" / "UK spelling" / "Give me a 1 to 10 score on plates I send you"
 
 Computed targets, filled in by the skill
-- "Protein per day: 131 g (82 kg × 1.6). Protein per meal: about 44 g over three meals. Maintenance calories: about 2,650 (Mifflin-St Jeor × 1.55). Recommended daily range: not set, weight is not a ranked goal. Daily target, your choice: none. Goal 1 marker cluster: LDL and ApoB above optimal."
-- With a weight goal: "Maintenance about 2,700. Recommended daily range: 2,200 to 2,400. Daily target, your choice: 2,300."
+- "Protein per day: 131 g (82 kg × 1.6). Protein per meal: about 44 g over three meals. Goal 1 marker cluster: LDL and ApoB above optimal."
