@@ -1,20 +1,20 @@
 # Customizing
 
-This whole folder is a sandbox. Configure it to your own needs, and treat every default as a starting point to check with your doctor. The skill is not one.
+Change what you like. The defaults are a place to start, and your doctor's numbers beat the table's. Disclaimer in the README.
 
 ## Change these
 
-**`references/inputs.md`** is the whole personalization surface. Your profile and activity, goals ranked, reports, allergies and won't-eat foods, eating pattern, food lists, strictness, caffeine, alcohol, supplements, your normal week, places you eat, log file, tone. Every verdict reads this first. The Computed targets block at the bottom is filled by the skill; edit it if you want a different protein or calorie number and the skill will use yours.
+**`references/inputs.md`** is where your information goes: profile and activity, goals in order, reports, allergies and won't-eat foods, eating pattern, food lists, strictness, caffeine, alcohol, supplements, your normal week, places you eat, log file, tone. The skill reads it before the first verdict. The Computed targets block at the bottom is filled by the skill; if you type a different protein or calorie number there, the skill uses yours.
 
 **`references/biomarkers.md`** if you have blood work, blood pressure readings or a body-composition scan. Upload the report in chat and the skill fills this for you.
 
-**`references/markers.md`** is the lookup table the skill reads reports against: lab range, common optimal target, food angle. Edit the optimal column if your doctor gave you different targets; the skill uses yours.
+**`references/markers.md`** is the lookup table the skill reads reports against: lab range, common target, food angle. If your doctor gave you different targets, put them in the optimal column.
 
-**`references/food-lists.md`** and **`references/habits.md`** hold the defaults. Edit them if your dietary pattern is different from the whole-food default. The tie-break ladder in `food-lists.md` and its adjustments by goal are the sections most worth tuning: they decide which of two good options wins.
+**`references/food-lists.md`** and **`references/habits.md`** are the defaults. Edit them if you eat differently from the whole-food default. The tie-break order in `food-lists.md`, and the adjustments under it, decide which of two good options wins, so that is the section most worth a look.
 
 ## Leave these alone unless you know why
 
-**`SKILL.md`** is the decision logic and the output formats. It is deliberately strict about brevity, the one-question rule (Setup is the only exception) and verdict-first formatting. Loosening those is how the skill turns into a lecture.
+**`SKILL.md`** is the decision logic and the output formats. It is strict about short answers, one question at a time (Setup is the exception) and verdict first. If you loosen those, the answers get long.
 
 ## Common tweaks
 

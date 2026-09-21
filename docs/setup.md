@@ -1,6 +1,6 @@
 # Setup
 
-Healthy Me is a folder of plain-text instructions. Any AI assistant that can take custom instructions and read a few files can run it. Pick the route that matches your tool, then say "set me up" in chat.
+If you only want to try it, use `QUICKSTART.md` (copy the file, paste it into your assistant's instructions, type "set me up"). This page covers the full folder, which gives you editable food lists, a marker lookup table and a log file. Pick the route that matches your tool.
 
 ## A. A chat assistant with custom instructions and file uploads (easiest, works on phone)
 
@@ -43,14 +43,14 @@ One message, eight numbered questions, all optional:
 7. Coffee and alcohol habits
 8. Places you eat, workout days, meal times, tone
 
-It then computes your protein target, recommends a calorie range if weight is a goal and asks which number you want to work to, proposes a goal ranking from your report, and hands back the filled files. Units: give height and weight in whatever you use; the skill converts.
+It then works out your protein target, recommends a calorie range if weight is a goal and asks which number you want to work to, suggests a goal order from your report, and hands back the filled files. Give height and weight in whatever units you use; the skill converts.
 
-Everything it computes is a starting point. This is a sandbox you tune to your own needs, and the skill is not a doctor: take the targets and your reports to yours, and change the files when they say something different.
+The targets are a place to start. Change them when your doctor gives you different ones. See the disclaimer in the README.
 
 ## Keeping your data private
 
-Once `references/inputs.md` and `references/biomarkers.md` contain your real information, uncomment the two lines in `.gitignore` so they never get committed to a public fork. Keep a private copy elsewhere. Your reports and body stats never leave your copy of the files and whatever assistant you paste them into.
+Once `references/inputs.md` and `references/biomarkers.md` contain your real information, uncomment the two lines in `.gitignore` so they stay out of a public fork. Keep a private copy somewhere else. Your reports and body stats go only into your copy of the files and the assistant you paste them into.
 
 ## Optional: log file and live data folder
 
-Name a log file in `inputs.md` and the skill appends one line per verdict, which makes the lookback mode exact instead of reconstructing from past conversations. If your assistant can read a cloud folder, name the path in `inputs.md` and the skill will read the newest lab export from it. Without either, it uses the bundled reference files, which is fine for most people.
+Name a log file in `inputs.md` and the skill appends one line per verdict, so a lookback counts real meals. If your assistant can read a cloud folder, name the path in `inputs.md` and the skill will read the newest lab export from it. Without either, it uses the reference files in the folder.

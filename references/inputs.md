@@ -2,7 +2,7 @@
 
 Two ways to fill this in. Type your answers below, or leave it blank and say "set me up" to your assistant: the skill asks everything in one message and hands you back this file filled in, ready to paste over this one. Blank fields fall back to the defaults in `food-lists.md` and `habits.md`.
 
-This is a sandbox you configure to your own needs. The skill is not a doctor; every target and food angle in these files is a starting point to adjust and to discuss with yours.
+Not medical advice. The targets and food angles in these files are a place to start; change them when your doctor gives you different ones. Full disclaimer in the README.
 
 **Last updated:** 
 
