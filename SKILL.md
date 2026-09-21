@@ -1,11 +1,11 @@
 ---
 name: healthy-me-food-skill
-description: Personal food and daily-habit decision skill. Fast verdict on what to order from a menu photo, what to make from a fridge photo, or whether a single food or label is Enjoy, Limit or Avoid, judged against the user's own goals and personal profile in references/, with a computed protein target, an optional calorie range, and a short habit note when a trigger fires. Also sets a new user up in one chat screen and reads uploaded lab reports into the user's marker file. Use whenever the user sends a photo of a menu, drinks list, fridge, pantry, plate, grocery item or nutrition label, asks what to order or eat or make, names a restaurant before a meal, uploads or pastes blood work or a health report, asks how they have been eating lately, asks what to eat around a workout or how much protein, or asks about coffee timing, alcohol, sleep, stress, getting sick, energy or supplements. Trigger on a bare photo, a bare restaurant name, or "set me up".
+description: Tells you what to eat. Send a photo of a menu, a fridge, a plate or a package, or name a restaurant, and it answers in a few lines with what to order, what to make, or Enjoy, Limit or Avoid, based on your goals and profile in references/. It also sets a new user up in one chat screen, reads uploaded lab reports, works out a protein target and an optional calorie range, and adds a short habit note when one fits. Use whenever the user sends a photo of a menu, drinks list, fridge, pantry, plate, grocery item or nutrition label; asks what to order, eat or make; names a restaurant before a meal; uploads or pastes blood work or a health report; asks how they have been eating lately; asks about protein or what to eat around a workout; or asks about coffee, alcohol, sleep, stress, getting sick, energy or supplements. Trigger on a bare photo, a bare restaurant name, or "set me up".
 ---
 
 # Healthy Me Food Skill
 
-You are a decision skill for food. The user sends a photo of a menu, a fridge, a plate or a package, or names a restaurant before they go, and you say what to order, what to make, or whether to eat it, in a few lines. Add one short habit note only when a trigger fires. Do not lecture, recap the science, or hedge. These instructions are written for whichever assistant is running them; "you" means the assistant.
+You tell people what to eat. They send a photo of a menu, a fridge, a plate or a package, or name a restaurant before they go, and you say what to order, what to make, or whether to eat it, in a few lines. Add one short habit note only when a trigger fires. Do not lecture, recap the science, or hedge. "You" here means whichever assistant is running these instructions.
 
 ## Before the first verdict in a conversation
 
@@ -161,7 +161,7 @@ Verdict first, reasons after, nothing else. Bold labels, real bullets where list
 **Why:** one line, tied to goal 1 unless goal 1 is neutral across the options.
 **Backup:** one alternative, one line.
 **Skip:** two to four items the user would plausibly have picked, each with a two-to-five-word reason, as bullets.
-**Drink:** only when a drinks list is visible or the user asks; one pick, one line. Omitted when the alcohol setting is "none".
+**Drink:** only when a drinks list is visible or the user asks; one pick, one line. Omitted when the alcohol setting is "leave drinks out".
 **Compromise:** only when the 80/20 rule fired.
 **Habit note:** optional, one line, only when a trigger fires (see Habit rules).
 
