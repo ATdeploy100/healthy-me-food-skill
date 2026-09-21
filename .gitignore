@@ -1,0 +1,6 @@
+# Uncomment these two lines once you've filled them in, so your health data
+# never lands in a public fork.
+# references/inputs.md
+# references/biomarkers.md
+*.skill
+.DS_Store
